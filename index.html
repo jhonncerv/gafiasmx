@@ -12,8 +12,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="language" content="es-LA">
-
-    @section('meta')
     <meta name="title" content="plasticos Garfias">
     <meta name="description" content="Compra y solicita cualueir tipo de plastico" />
     <meta name="keywords" content="Hule, plástico, moldeo, esponja, manguera, tapón de plástico, bujes, puño de bicicletas, tapete, poleas, regaton, polietileno, polipro, nylon, fabricantes de plástico, fabricantes de hule, artículos deportivos, artículos de hule, artículos de plástico, artefactos de hule Rodríguez" />
@@ -65,7 +63,6 @@
     <meta property="og:locale" content="es_LA" />
     <meta property="og:site_name" content="Plasticos Garfias" />
     <meta property="fb:admins" content="plasticosGarfias" />
-    {{-- <meta property="fb:app_id" content="368878443228705" /> --}}
 
     <!-- Geometatags -->
     <meta name="geo.region" content="es-LA">
@@ -80,7 +77,6 @@
     <meta name="DC.description" content="Compara y solicita el plastico que necesitas">
     <meta name="DC.subject" content="marketing">
     <meta name="DC.language" scheme="ISO639­1" content="es-LA">
-    @show
 
     <!--  RDF  -->
     <link rel="meta" type="application/rdf+xml" href="/fichero.rdf">
@@ -135,19 +131,19 @@
 			<!-- Slide 1 -->
 				
 			<li>		
-				<div style="background-image: url('img/bg.jpg');" class="slides-fullscreen-img"></div>
+				<div style="background-image: url('/img/fondo1.jpg');" class="slides-fullscreen-img"></div>
 			</li>
 					
 			<!-- Slide 2 -->
 					
 			<li>
-				<div style="background-image: url('img/bg.jpg');" class="slides-fullscreen-img"></div>
+				<div style="background-image: url('/img/fondo2.jpg');" class="slides-fullscreen-img"></div>
 			</li>
 	
 			<!-- Slide 3 -->
 					
 			<li>	
-				<div style="background-image: url('img/bg.jpg');" class="slides-fullscreen-img"></div>
+				<div style="background-image: url('/img/fondo3.jpg');" class="slides-fullscreen-img"></div>
 			</li>
 				
 		</ul>
@@ -171,11 +167,11 @@
 										
 						<div class="content"> 
 	
-							<h2>About us</h2>    
+							<h2>Nosotros</h2>    
 							<div class="small-separator"></div>                       	
 			
-							<p class="align-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo eros justo, in pulvinar neque congue eu. Fusce gravida pharetra leo, in consequat sapien bibendum eleifend. Duis suscipit purus at mollis varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> 
-							<p class="align-just">Ut eu nisl ut purus sodales suscipit sit amet non elit. Pellentesque viverra fringilla purus ut pretium. Morbi sit amet nunc sed nibh lobortis posuere condimentum nec urna. Praesent tincidunt dictum porttitor. Cras et purus sed ipsum ullamcorper tristique.</p>
+							<p class="align-just">Fabricamos cualquier accesorio o herramienta hecha de plastico que necesite.</p>
+							<p class="align-just">Trabajamos sobre pedido, envianos tu molde.</p>
 								
 							<!--social-links -->
 								
@@ -213,20 +209,20 @@
 								<ul class="countdown">
 									<li>
 										<span class="days rot">00</span>
-										<p class="days_ref">days</p>			
+										<p class="days_ref">Dias</p>			
 									</li>
 									<li>
 										<span class="hours rot">00</span>
-										<p class="hours_ref">hours</p>
+										<p class="hours_ref">Horas</p>
 									</li>
 									<li>
 										<span class="minutes rot2">00</span>
-										<p class="minutes_ref">minutes</p>
+										<p class="minutes_ref">Minutos</p>
 							
 									</li>
 									<li>
 										<span class="seconds rot2">00</span>
-										<p class="seconds_ref">seconds</p>
+										<p class="seconds_ref">Segundos</p>
 									</li>
 								</ul>
 									
@@ -255,19 +251,19 @@
 							
 							</div>
 							
-							<h3>NOTIFY ME WHEN IT'S READY</h3> 
+							<h3>Déjanos un mensaje</h3> 
 							
 							<div class="subcribe">
 
 								<span class="overlay suboverlay"></span>
 								<fieldset>
 									<form class="subscriptionForm" method="post">
-										<input id="subscriptionForm" class="inputForm" type="text" value="Enter Your Email Address" onFocus="if (this.value=='Enter Your Email Address') this.value=''" onBlur="if (this.value==''){this.value='Enter Your Email Address'}" />
-										<input type="submit" id="submitButton" class="transition" value="Send">
+										<input id="subscriptionForm" class="inputForm" type="text" placeholder = "Ingresa tu correo" value="" />
+										<input type="submit" id="submitButton" class="transition" value="Enviar">
 									</form>
 									
-									<div id="success">Thanks for your subscription</div>
-									<div id="error">Please enter a valid email address</div>
+									<div id="success">Gracias por escribirnos</div>
+									<div id="error">Esto no es un mail valido</div>
 									
 								</fieldset>
 								
@@ -288,11 +284,11 @@
 
 						<div class="content fade2 transition">
 						
-							<h2>Get in touch</h2> 
+							<h2>Ponte en contacto con nosotros</h2> 
 							<div class="small-separator"></div>
 					
 							
-							<p class="align-just" style="text-align:center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo eros justo, in pulvinar neque congue eu. Fusce gravida pharetra leo, in consequat sapien bibendum eleifend. </p> 
+							<p class="align-just" style="text-align:center">Nosotros nos comunicaremos lo mas pronto posible</p> 
 							
 							<div class="contact-info">
 							
@@ -308,7 +304,7 @@
 								
 								<div class="grid-2 transition">
 									<i class="fa fa-globe fa-2x"></i>
-									<br><br><a href="#" target="_blank">Heritage Park Minneapolis</a> 
+									<br><br><a href="#" target="_blank">DF y Zona Metropolitana</a> 
 								</div>
 							</div>			
 						</div>
