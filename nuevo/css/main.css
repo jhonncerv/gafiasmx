@@ -95,8 +95,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
 .intro p{
     width: 50%;
     margin: 0 auto;
@@ -104,38 +102,6 @@ textarea {
 }
 .section{
     text-align:center;
-}
-#menu li {
-    display:inline-block;
-    margin: 10px;
-    color: #000;
-    background:#fff;
-    background: rgba(255,255,255, 0.5);
-    -webkit-border-radius: 10px;
-            border-radius: 10px;
-}
-#menu li.active{
-    background:#666;
-    background: rgba(0,0,0, 0.5);
-    color: #fff;
-}
-#menu li a{
-    text-decoration:none;
-    color: #000;
-}
-#menu li.active a:hover{
-    color: #000;
-}
-#menu li:hover{
-    background: rgba(255,255,255, 0.8);
-}
-#menu li a,
-#menu li.active a{
-    padding: 9px 18px;
-    display:block;
-}
-#menu li.active a{
-    color: #fff;
 }
 #menu{
     position:fixed;
@@ -145,9 +111,64 @@ textarea {
     z-index: 70;
     width: 100%;
     padding: 0;
-    margin:0;
+    margin: 10px 0;
+    text-align: right;
+}
+#menu img {
+    width: 179px;
+    margin-top: -10px;
+}
+#menu li {
+    display:inline-block;
+    margin: 10px;
+    color: #ffffff;
+    position: relative;
+    transition: all 500ms ease;
+}
+#menu li a{
+    text-decoration:none;
+    color: #ffffff;
+    margin: 0 10px;
+}
+#menu li.active a:hover{
+}
+#menu li a,
+#menu li.active a{
+    padding: 9px 10px;
+    display:block;
+}
+#menu li.active a{
+    color: #d2721a;
+}
+#menu li:first-child,
+#menu li:first-child {
+    display: inline-block;
+    float: left;
+}
+#menu li:first-child.active,
+#menu li:first-child.active {
+    opacity: 0;
+}
+#menu li:first-child.active:before,
+#menu li:first-child.active:after {
+    display: none;
+}
+#menu li.active:before,
+#menu li.active:after {
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    content: ' ';
+    background: #d1a067;
+    left: 0;
+}
+#menu li a:hover{
+    color: #d1a067;
 }
 
+body {
+    background: url("../img/Capa 2.png");
+}
 
 
 
