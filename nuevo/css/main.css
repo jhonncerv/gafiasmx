@@ -113,6 +113,7 @@ textarea {
     padding: 0;
     margin: 10px 0;
     text-align: right;
+    transition: all 900ms ease;
 }
 #menu img {
     width: 179px;
@@ -129,6 +130,7 @@ textarea {
     text-decoration:none;
     color: #ffffff;
     margin: 0 10px;
+    font-weight: 700;
 }
 #menu li.active a:hover{
 }
@@ -170,9 +172,19 @@ body {
     background: url("../img/Capa 2.png");
 }
 
+ul#menu.active {
+    bottom: 10%;
+    top: initial;
+    text-align: center;
+}
 
+ul#menu.active li:first-child {
+    position: absolute;
+}
 
-
+ul#menu.active li a {
+    color: #f08119;
+}
 
 
 

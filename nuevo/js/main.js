@@ -12,11 +12,19 @@ $(document).ready(function() {
 
 		'afterLoad': function(anchorLink, index){
 			if(index == 1){
-				$('#iphone3, #iphone2, #iphone4').addClass('active');
+				$('#menu').addClass('active');
+			} else {
+				$('#menu').removeClass('active');
 			}
 		},
 
 		'onLeave': function(index, nextIndex, direction){
+			if(index == 1){
+				$('#menu').removeClass('active');
+			}
+			if (nextIndex == 1) {
+				$('#menu').addClass('active');
+			}
 			if (index == 3 && direction == 'down'){
 				$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
 			}
