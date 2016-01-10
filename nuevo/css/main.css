@@ -130,14 +130,18 @@ textarea {
     text-decoration:none;
     color: #ffffff;
     margin: 0 10px;
+<<<<<<< HEAD
     font-weight: 700;
+=======
+    font-weight: bolder;
+>>>>>>> origin/master
 }
 #menu li.active a:hover{
 }
 #menu li a,
 #menu li.active a{
     padding: 9px 10px;
-    display:block;
+    display: block;
 }
 #menu li.active a{
     color: #d2721a;
