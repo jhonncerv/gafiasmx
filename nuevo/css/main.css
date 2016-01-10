@@ -908,9 +908,19 @@ ul#menu.active li a {
     font-size: 12px;
 }
 
+.iIzq, .iDer {
+    position: absolute;
+}
 
+#section1 .iIzq {
+    left: -20px;
+    bottom: 8%;
+}
 
-
+#section1 .iDer {
+    right: -100px;
+    bottom: 10%;
+}
 
 
 /* ==========================================================================
