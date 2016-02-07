@@ -908,7 +908,7 @@ ul#menu.active li a {
     font-size: 12px;
 }
 
-.iIzq, .iDer {
+.iIzq, .iDer, .iCen {
     position: absolute;
 }
 
@@ -921,6 +921,33 @@ ul#menu.active li a {
     right: -100px;
     bottom: 10%;
 }
+
+#section2 .iIzq {
+    left: -20px;
+    bottom: 8%;
+}
+
+#section2 .iDer {
+    right: -10px;
+    bottom: 5%;
+}
+
+#section3 .iIzq {
+    left: -20%;
+    bottom: 0%;
+}
+
+#section3 .iDer {
+    right: -5%;
+    bottom: -10%;
+}
+
+#section3 .iCen {
+    right: 50%;
+    bottom: -50%;
+    transform: translateX(50%);
+}
+
 
 
 /* ==========================================================================
