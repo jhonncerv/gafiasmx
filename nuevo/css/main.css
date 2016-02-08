@@ -880,9 +880,16 @@ ul#menu.active li a {
     color: #f08119;
 }
 
+.section .container {
+    z-index: 1;
+    position: relative;
+}
+
 .intro {
     background: #131313;
     height: 90%;
+    overflow: hidden;
+    position: relative;
 }
 
 .jscroll {
@@ -910,21 +917,22 @@ ul#menu.active li a {
 
 .iIzq, .iDer, .iCen {
     position: absolute;
+    z-index: 0;
 }
 
 #section1 .iIzq {
     left: -20px;
-    bottom: 8%;
+    bottom: 7%;
 }
 
 #section1 .iDer {
     right: -100px;
-    bottom: 10%;
+    bottom: 1%;
 }
 
 #section2 .iIzq {
     left: -20px;
-    bottom: 8%;
+    bottom: 4%;
 }
 
 #section2 .iDer {
@@ -948,7 +956,47 @@ ul#menu.active li a {
     transform: translateX(50%);
 }
 
+#section3 h3,
+#section3 p,
+#section3 a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
 
+#section3 h3:first-child {
+    margin-top: 100px;
+}
+
+
+#section3 a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+}
+
+input[type="submit"] {
+    display: block;
+    background: orange;
+    color: #131313;
+    border: none;
+    padding: 8px 10px;
+    margin: 10px 0;
+    float: right;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #ffde3a;
+    color: #000000;
+}
 
 /* ==========================================================================
    Helper classes
