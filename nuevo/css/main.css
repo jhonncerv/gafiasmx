@@ -801,6 +801,11 @@ body {
     background: url("../img/Capa 2.png");
 }
 
+h1,
+h2 {
+    font-size: 1.2em;
+}
+
 #menu{
     position:fixed;
     top:0;
@@ -809,7 +814,7 @@ body {
     z-index: 70;
     width: 100%;
     padding: 0;
-    margin: 10px 0;
+    margin: 50px 0 0;
     text-align: right;
     transition: all 900ms ease;
 }
@@ -899,11 +904,10 @@ ul#menu.active li a {
     color: #fff;
     width: 50%;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .jscroll h1 {
-    font-size: 14px;
     margin-top: 25px;
 }
 
@@ -912,7 +916,7 @@ ul#menu.active li a {
 }
 
 .jscroll p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .iIzq, .iDer, .iCen {
@@ -965,8 +969,11 @@ ul#menu.active li a {
     display: block;
 }
 
+#section3 p {
+    font-size: 14px;
+}
 #section3 h3:first-child {
-    margin-top: 100px;
+    margin-top: 128px;
 }
 
 
