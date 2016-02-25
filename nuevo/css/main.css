@@ -932,7 +932,7 @@ ul#menu.active li a {
 }
 
 #section1 .iIzq.active {
-    left: -20px;
+    left: 0;
 }
 
 #section1 .iDer {
@@ -941,34 +941,34 @@ ul#menu.active li a {
 }
 
 #section1 .iDer.active {
-    right: -100px;
+    right: 0;
 }
 
 #section2 .iIzq {
     left: -100%;
-    bottom: 4%;
+    bottom: 12%;
 }
 
 #section2 .iIzq.active {
-    left: -20px;
+    left: 0;
 }
 
 #section2 .iDer {
     right: -100%;
-    bottom: 5%;
+    bottom: 12%;
 }
 
 #section2 .iDer.active {
-    right: -10px;
+    right: 0;
 }
 
 #section3 .iIzq {
     left: -100%;
-    bottom: 0%;
+    bottom: 0;
 }
 
 #section3 .iIzq.active {
-    left: -20%;
+    left: 0;
 }
 
 #section3 .iDer {
@@ -977,7 +977,7 @@ ul#menu.active li a {
 }
 
 #section3 .iDer.active {
-    right: -5%;
+    right: 0;
 }
 
 #section3 .iCen {
@@ -987,7 +987,7 @@ ul#menu.active li a {
 }
 
 #section3 .iCen.active {
-    bottom: -50%;
+    bottom: 0;
 }
 
 #section3 h3,
@@ -1049,6 +1049,11 @@ footer p {
 .fp-tableCell {
     vertical-align: top;
     padding-top: 10px;
+}
+
+div#section0 img {
+    width: 45%;
+    margin-top: 4%;
 }
 
 /* ==========================================================================
