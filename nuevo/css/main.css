@@ -795,6 +795,8 @@ textarea {
 
 .section{
     text-align:center;
+    background: url("../img/Capa 2.png");
+    background-size: cover;
 }
 
 body {
@@ -814,7 +816,7 @@ h2 {
     z-index: 70;
     width: 100%;
     padding: 0;
-    margin: 50px 0 0;
+    margin: 18px 0 0;
     text-align: right;
     transition: all 900ms ease;
 }
@@ -1012,6 +1014,21 @@ ul#menu.active li a {
     text-decoration: underline;
 }
 
+.jspVerticalBar {
+    background: black;
+    width: 6px;
+}
+.jspTrack {
+    background: rgba(242, 143, 55, 0.2);
+    -webkit-transition: .5s background;
+    transition: .5s background;
+}
+.jspContainer:hover .jspTrack {
+    background: rgba(242, 143, 55, 0.4);
+}
+.jspDrag {
+    background: #D2721A;
+}
 input[type="text"],
 textarea {
     width: 100%;

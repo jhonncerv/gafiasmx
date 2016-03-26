@@ -12,3 +12,4 @@ log/*
 .Trashes
 .AppleDouble
 .LSOverride
+bower_components

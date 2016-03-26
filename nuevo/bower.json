@@ -1,0 +1,27 @@
+{
+  "name": "garfiaz",
+  "description": "hules y plasticos garfiaz",
+  "main": "",
+  "authors": [
+    "jhonn cerv <jhonncerv@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "plasticos"
+  ],
+  "homepage": "https://github.com/jhonncerv/gafiasmx",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "fullpage#^2.7.8"
+  }
+}

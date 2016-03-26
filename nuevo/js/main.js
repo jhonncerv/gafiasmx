@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('.jscroll').jScrollPane();
 	$('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent'],
 		anchors: ['inicio','nosotros', 'productos', 'contacto'],
