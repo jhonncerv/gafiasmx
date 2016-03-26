@@ -7,19 +7,20 @@ if($_POST)
     } 
 	
 	$to_Email   	= "contacto@garfias.mx"; //Replace with recipient email address
-	$subject        = 'Ah!! My email from Somebody out there...'; //Subject line for emails
+	$subject        = 'Ah!! No mames un correo de la página...'; //Subject line for emails
 	
 	//check $_POST vars are set, exit if any missing
-	if(!isset($_POST["userName"]) || !isset($_POST["userEmail"])  || !isset($_POST["userMessage"]))
+	if(!isset($_POST["nombre"]) || !isset($_POST["correo"])  || !isset($_POST["asunto"]))
 	{
 		die();
 	}
 
 	//Sanitize input data using PHP filter_var().
-	$user_Name        = filter_var($_POST["userName"], FILTER_SANITIZE_STRING);
-	$user_Email       = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
-	$user_Message     = filter_var($_POST["userMessage"], FILTER_SANITIZE_STRING);
-	
+	$user_Name        = filter_var($_POST["nombre"], FILTER_SANITIZE_STRING);
+	$user_Email       = filter_var($_POST["correo"], FILTER_SANITIZE_EMAIL);
+	$user_Message     = filter_var($_POST["asunto"], FILTER_SANITIZE_STRING);
+	$user_corp        = isset($_POST["empresa"])?filter_var($_POST["empresa"], FILTER_SANITIZE_STRING):'';
+
 	//additional php validation
 	if(strlen($user_Name)<4) // If length is less than 4 it will throw an HTTP error.
 	{
@@ -42,7 +43,7 @@ if($_POST)
 	'Reply-To: '.$user_Email.'' . "rn" .
 	'X-Mailer: PHP/' . phpversion();
 	
-	@$sentMail = mail($to_Email, $subject, $user_Message .'  -'.$user_Name, $headers);
+	@$sentMail = mail($to_Email, $subject, $user_Message .'  -'.$user_Name .'  -'.$user_corp, $headers);
 	
 	if(!$sentMail)
 	{
