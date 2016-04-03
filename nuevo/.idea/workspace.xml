@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list id="b6ac29f9-aa19-4874-a13f-d473c45bb188" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;nuevo/.idea/workspace.xml&#10;#&#9;nuevo/css/main.css&#10;" />
     <list default="true" id="24d0440f-6010-4b75-99e0-f645760aff7f" name="Failed commit: Default" comment="mas imagenes">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="nuevo.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="290" selection-end-column="18" />
+            <state relative-caret-position="216">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -368,7 +369,7 @@
       <workItem from="1459230341574" duration="1228000" />
       <workItem from="1459303958732" duration="1208000" />
       <workItem from="1459570782337" duration="1230000" />
-      <workItem from="1459638230642" duration="15963000" />
+      <workItem from="1459638230642" duration="17031000" />
     </task>
     <task id="LOCAL-00001" summary="se agrega scroll pane">
       <created>1458851320293</created>
@@ -395,7 +396,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42947000" />
+    <option name="totallyTimeSpent" value="44015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="30" width="1378" height="745" extended-state="0" />
@@ -841,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="277" column="26" selection-start-line="277" selection-start-column="26" selection-end-line="290" selection-end-column="18" />
+        <state relative-caret-position="216">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding />
         </state>
       </provider>
