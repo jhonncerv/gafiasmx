@@ -25,6 +25,6 @@
     }
   },
   "config": {
-    "devUrl": "http://etermagazine.local"
+    "devUrl": "http://localhost:8090"
   }
 }

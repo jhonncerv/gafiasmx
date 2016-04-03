@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.jscroll').jScrollPane();
+	$('.jscroll, .jsProd').jScrollPane();
 	$('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent'],
 		anchors: ['inicio','nosotros', 'productos', 'contacto'],
@@ -36,9 +36,11 @@ $(document).ready(function() {
 			if(index == 2 && direction == 'down'){
 				$('#section2 .iIzq').addClass('active');
 				$('#section2 .iDer').addClass('active');
+				$grid.shuffle('update');
 			} else if(index == 4 && direction == 'up'){
 				$('#section2 .iIzq').addClass('active');
 				$('#section2 .iDer').addClass('active');
+				$grid.shuffle('update');
 			} else {
 				$('#section2 .iIzq').removeClass('active');
 				$('#section2 .iDer').removeClass('active');
@@ -65,10 +67,8 @@ $(document).ready(function() {
 			$('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
 		}
 	});
-	var $grid = $('#grid'),
-		$sizer = $grid.find('.shuffle__sizer');
-	$grid.shuffle({
-		itemSelector: '.picture-item',
-		sizer: $sizer
+	var $grid = $('#grid');
+	 $grid.shuffle({
+		itemSelector: '.picture-item'
 	});
 });
