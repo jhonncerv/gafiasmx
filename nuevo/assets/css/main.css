@@ -897,7 +897,7 @@ figure.picture-item {
     padding: 0;
 }
 figure.picture-item a {
-    background: #fff;
+    background: #c1c1c1;
     border-radius: 20px;
     width: 90%;
     display: inline-block;
@@ -986,8 +986,9 @@ figure.picture-item a .details {
 
 #section2 .jsProd {
     height: 500px;
-    width: 80%;
+    width: 82%;
     margin: 100px auto 20px;
+    padding: 15px;
 }
 
 
