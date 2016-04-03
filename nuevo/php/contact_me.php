@@ -50,8 +50,8 @@ if($_POST)
 		header('HTTP/1.1 500 Could not send mail! Sorry..');
 		exit();
 	}else{
-		echo 'Hi '.$user_Name .', Thank you for your email! ';
-		echo 'Your email has bee sand.';
+		echo 'Hola '.$user_Name .', Thank you for your email! ';
+		echo 'El correo se envio';
 	}
 }
 ?>

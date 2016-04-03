@@ -8,7 +8,7 @@ $(document).ready(function() {
 		'css3': true,
 		'navigation': true,
 		'navigationPosition': 'right',
-		'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
+		'navigationTooltips': ['Home', 'Nosotros', 'Productos', 'Contacto'],
 		scrollingSpeed: 1000,
 
 		'afterLoad': function(anchorLink, index){
@@ -20,7 +20,6 @@ $(document).ready(function() {
 		},
 
 		'onLeave': function(index, nextIndex, direction){
-			console.log(index + ' - ' + nextIndex + ' - ' + direction)
 			if(index == 1){
 				$('#menu').removeClass('active');
 			}
@@ -66,5 +65,10 @@ $(document).ready(function() {
 			$('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
 		}
 	});
-
+	var $grid = $('#grid'),
+		$sizer = $grid.find('.shuffle__sizer');
+	$grid.shuffle({
+		itemSelector: '.picture-item',
+		sizer: $sizer
+	});
 });

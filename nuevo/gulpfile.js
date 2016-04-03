@@ -113,7 +113,7 @@ var cssTasks = function(filename) {
     })
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'assets/styles/'
+        sourceRoot: 'assets/css/'
       }));
     })();
 };
@@ -141,7 +141,7 @@ var jsTasks = function(filename) {
     })
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'assets/scripts/'
+        sourceRoot: 'assets/js/'
       }));
     })();
 };
@@ -252,10 +252,10 @@ gulp.task('watch', function() {
       blacklist: ['/wp-admin/**']
     }
   });
-  gulp.watch([path.source + 'styles/**/*'], ['styles']);
-  gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
-  gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
-  gulp.watch([path.source + 'images/**/*'], ['images']);
+  gulp.watch([path.source + 'css/**/*'], ['styles']);
+  gulp.watch([path.source + 'js/**/*'], ['jshint', 'scripts']);
+  //gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
+  gulp.watch([path.source + 'img/**/*'], ['images']);
   gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
 });
 
@@ -276,10 +276,10 @@ gulp.task('wiredep', function() {
   var wiredep = require('wiredep').stream;
   return gulp.src(project.css)
     .pipe(wiredep())
-    .pipe(changed(path.source + 'styles', {
+    .pipe(changed(path.source + 'css', {
       hasChanged: changed.compareSha1Digest
     }))
-    .pipe(gulp.dest(path.source + 'styles'));
+    .pipe(gulp.dest(path.source + 'css'));
 });
 
 // ### Gulp

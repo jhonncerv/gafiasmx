@@ -36,8 +36,8 @@
     <meta itemscope itemtype="http://schema.org/Article">
     <meta itemprop="name" content="Hule y plásticos Garfias ">
     <meta itemprop="description" content="Compara y solicita el plastico que necesitas">
-    <meta itemprop="image" content="https://garfias.mx/img/logo.png" />
-    <meta property="og:image" content="http://garfias.mx/img/logo-rd.png" />
+    <meta itemprop="image" content="https://garfias.mx//dist/images/logo.png" />
+    <meta property="og:image" content="http://garfias.mx//dist/images/logo-rd.png" />
 
 
     <!-- Twitter Card data -->
@@ -47,7 +47,7 @@
     <meta name="twitter:description" content="Compara y solicita el plastico que necesitas" />
 
     <meta name="twitter:creator" content="@mercacredito">
-    <meta name="twitter:image:src" content="//garfias.mx/img/logo-rd.png">
+    <meta name="twitter:image:src" content="//garfias.mx//dist/images/logo-rd.png">
     <!-- Twitter summary card with large image must be at least 280x150px -->
 
 
@@ -57,7 +57,7 @@
     <meta property="og:title" content="Hule y plásticos Garfias " />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://garfias.mx/" />
-    <meta property="og:image" content="https://garfias.mx/img/logo-rd.png" />
+    <meta property="og:image" content="https://garfias.mx//dist/images/logo-rd.png" />
     <meta property="og:site_name" content="garfias.mx" />
     <meta property="og:description" content="Compara y solicita el plastico que necesitas" />
     <meta property="og:locale" content="es_LA" />
@@ -94,13 +94,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <!-- styles needed by jScrollPane -->
-        <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="/dist/styles/main.css">
+        <script src="/dist/scripts/modernizr.js"></script>
     </head>
     <body>
     <!--[if lt IE 8]>
@@ -111,7 +106,7 @@
         
     <ul id="menu">
         <li data-menuanchor="inicio">
-            <a href="#inicio"><img src="img/Capa%207.png" alt="Logo hules y Plasticos Garfías"></a></li>
+            <a href="#inicio"><img src="/dist/images/Capa%207.png" alt="Logo hules y Plasticos Garfías"></a></li>
         <li data-menuanchor="nosotros"><a href="#nosotros">QUIENES SOMOS</a></li>
         <li data-menuanchor="productos"><a href="#productos">PRODUCTOS</a></li>
         <li data-menuanchor="contacto"><a href="#contacto">CONTACTO</a></li>
@@ -119,7 +114,7 @@
 
     <div id="fullpage">
         <div class="section " id="section0">
-            <img src="img/logotipo.png" alt="fullPage" />
+            <img src="/dist/images/logotipo.png" alt="fullPage" />
         </div>
         <div class="section" id="section1">
             <div class="intro">
@@ -143,18 +138,49 @@
                         </ul>
                     </div>
                 </div>
-                <img src="img/img1.png" alt="garfias" class="iIzq" />
-                <img src="img/img2.png" alt="garfias" class="iDer" />
+                <img src="/dist/images/img1.png" alt="garfias" class="iIzq" />
+                <img src="/dist/images/img2.png" alt="garfias" class="iDer" />
             </div>
         </div>
         <div class="section" id="section2">
             <div class="intro">
                 <div class="container">
-
+                    <div id="grid" class="row-fluid">
+                        <figure class="span3 picture-item" data-groups='["photography"]'>
+                            <img src="http://dummyimage.com/600x600/bbb/fff&text=img" height="145" width="230" />
+                            <div class="picture-item__details">
+                                <figcaption class="picture-item__title">Baseball</figcaption>
+                                <p class="picture-item__tags">photography</p>
+                            </div>
+                        </figure>
+                        <figure class="span6 picture-item" data-groups='["wallpaper","3d"]'>
+                            <img src="http://dummyimage.com/600x600/bbb/fff&text=img.png" height="145" width="230" />
+                            <div class="picture-item__details">
+                                <figcaption class="picture-item__title">Tennis</figcaption>
+                                <p class="picture-item__tags">wallpaper, 3d</p>
+                            </div>
+                            <p class="picture-item__description">Some description here.</p>
+                        </figure>
+                        <figure class="span3 picture-item" data-groups='["wallpaper","3d"]'>
+                            <img src="http://dummyimage.com/600x600/bbb/fff&text=img" height="145" width="230" />
+                            <div class="picture-item__details">
+                                <figcaption class="picture-item__title">iMac</figcaption>
+                                <p class="picture-item__tags">wallpaper, 3d</p>
+                            </div>
+                        </figure>
+                        <figure class="span3 picture-item picture-item--h2" data-groups='["graphics"]'>
+                            <img src="http://dummyimage.com/600x600/bbb/fff&text=img" height="145" width="230" />
+                            <div class="picture-item__details">
+                                <figcaption class="picture-item__title">Master Chief</figcaption>
+                                <p class="picture-item__tags">graphics</p>
+                            </div>
+                            <p class="picture-item__description">Some description here.</p>
+                        </figure>
+                    </div>
                 </div>
             </div>
-            <img src="img/img3.png" alt="garfias" class="iIzq" />
-            <img src="img/img4.png" alt="garfias" class="iDer" />
+            <img src="/dist/images/img3.png" alt="garfias" class="iIzq" />
+            <img src="/dist/images/img4.png" alt="garfias" class="iDer" />
         </div>
         <div class="section" id="section3">
             <div class="intro">
@@ -185,26 +211,25 @@
                             </form>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-xm-12-col-md-4">
+                            <div class="shuffle__sizer"></div>
+                        </div>
+                    </div>
                 </div>
-                <img src="img/img5.png" alt="garfias" class="iIzq" />
-                <img src="img/img6.png" alt="garfias" class="iCen" />
-                <img src="img/img7.png" alt="garfias" class="iDer" />
+                <img src="/dist/images/img5.png" alt="garfias" class="iIzq" />
+                <img src="/dist/images/img6.png" alt="garfias" class="iCen" />
+                <img src="/dist/images/img7.png" alt="garfias" class="iDer" />
             </div>
         </div>
     </div>
 
     <footer>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Derechos reservados © 2015 Garfias.</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    <!-- the mousewheel plugin - optional to provide mousewheel support -->
-    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-    <!-- the jScrollPane script -->
-    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script>window.jQuery || document.write('<script src="/dist/scripts/jquery.js"><\/script>')</script>
+    <script src="/dist/scripts/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

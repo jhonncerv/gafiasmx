@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "js/jquery.mousewheel.js",
+        "js/jquery.jscrollpane.min.js",
+        "js/plugins.js",
+        "js/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "css/normalize.css",
+        "css/jquery.jscrollpane.css",
+        "css/main.css"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "config": {
+    "devUrl": "http://etermagazine.local"
+  }
+}

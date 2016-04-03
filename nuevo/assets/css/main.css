@@ -795,12 +795,12 @@ textarea {
 
 .section{
     text-align:center;
-    background: url("../img/Capa 2.png");
+    background: url("../images/Capa 2.png");
     background-size: cover;
 }
 
 body {
-    background: url("../img/Capa 2.png");
+    background: url("../images/Capa 2.png");
 }
 
 h1,
@@ -886,7 +886,12 @@ ul#menu.active li:first-child {
 ul#menu.active li a {
     color: #f08119;
 }
-
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #D2721A;
+}
+#fp-nav ul li .fp-tooltip {
+    color: #D1A067;
+}
 .section .container {
     z-index: 1;
     position: relative;
