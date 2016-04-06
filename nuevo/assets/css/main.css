@@ -985,12 +985,15 @@ figure.picture-item a .details {
 }
 
 #section2 .jsProd {
-    height: 500px;
+    height: 450px;
     width: 82%;
-    margin: 100px auto 20px;
+    margin: 10px auto 20px;
     padding: 15px;
 }
-
+#section2 h2 {
+    color: #ffffff;
+    margin-top: 80px;
+}
 
 #section2 .iIzq {
     left: -100%;
@@ -1107,6 +1110,7 @@ footer {
 footer p {
     color: #fff;
     text-align: center;
+    font-size: 12px;
 }
 
 .fp-tableCell {
@@ -1117,6 +1121,56 @@ footer p {
 div#section0 img {
     width: 45%;
     margin-top: 4%;
+}
+
+@media only screen and (max-width: 990px) {
+    div#section0 img {
+        width: 80%;
+        margin-top: 11%;
+    }
+    #menu li {
+        display: none;
+    }
+    #menu li:first-child {
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+    #menu img {
+        width: 110px;
+        margin-top: -10px;
+    }
+    #menu li a {
+        text-align: left;
+    }
+    #menu.active li {
+        display: block;
+    }
+    #menu.active li a {
+        text-align: center;
+    }
+    ul#menu.active {
+        bottom: 45%;
+    }
+    #menu.active li {
+        width: 100%;
+    }
+    .iIzq,
+    .iDer {
+        width: 30%;
+    }
+    .jscroll {
+        position: relative;
+        width: 100%;
+    }
+    #section2 .jsProd {
+        height: 350px;
+    }
+    #section2 h2 {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 15px;
+    }
 }
 
 /* ==========================================================================
