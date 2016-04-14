@@ -903,14 +903,15 @@ figure.picture-item a {
     display: inline-block;
     margin: 15px auto;
     text-decoration: none;
-    min-height: 200px;
+    min-height: 240px;
     position: relative;
 }
 figure.picture-item a img {
     margin: 10px;
-    width: 100%;
+    width: auto;
     display: inline-block;
     max-width: 70%;
+    max-height: 150px;
     margin-bottom: 20%;
     margin-top: 20%;
 }
@@ -919,7 +920,7 @@ figure.picture-item a img.noTop {
     margin-top: 0;
 }
 figure.picture-item a img.halfTop {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 figure.picture-item a .details {
     position: absolute;
@@ -1113,10 +1114,9 @@ input[type="submit"]:hover {
 footer {
     position: absolute;
     width: 100%;
-    bottom: -40px;
+    bottom: 0;
 }
-
-footer p {
+#section3 footer > p {
     color: #fff;
     text-align: center;
     font-size: 12px;
