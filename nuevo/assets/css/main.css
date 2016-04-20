@@ -913,6 +913,7 @@ figure.picture-item a img {
     max-width: 70%;
     max-height: 150px;
     margin-bottom: 20%;
+    padding-top: 10%;
     margin-top: 20%;
 }
 
@@ -1131,7 +1132,6 @@ div#section0 img {
     width: 45%;
     margin-top: 4%;
 }
-
 @media only screen and (max-width: 990px) {
     div#section0 img {
         width: 80%;
@@ -1181,6 +1181,16 @@ div#section0 img {
         margin-left: 15px;
     }
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 550px) {
+    ul#menu.active {
+        bottom: 20%;
+    }
+    #section2 .jsProd {
+        height: 500px;
+    }
+}
+
 
 /* ==========================================================================
    Helper classes
