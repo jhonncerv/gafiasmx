@@ -932,6 +932,9 @@ figure.picture-item a .details {
     width: 100%;
     text-align: center;
 }
+#grid {
+    padding-bottom: 200px;
+}
 .section .container {
     z-index: 1;
     position: relative;
