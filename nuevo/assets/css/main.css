@@ -809,20 +809,23 @@ h2 {
 }
 
 #menu{
-    position:fixed;
-    top:0;
-    left:0;
-    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 70;
     width: 100%;
     padding: 0;
-    margin: 18px 0 0;
+    margin: 10px 0 0;
     text-align: right;
-    transition: all 900ms ease;
+    -webkit-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    transition: all .9s ease;
+    background: rgba(0, 0, 0, 0.29);
 }
 #menu img {
-    width: 179px;
+    max-width: 179px;
     margin-top: -10px;
+    max-height: 50px;
 }
 #menu li {
     display:inline-block;
@@ -830,6 +833,7 @@ h2 {
     color: #ffffff;
     position: relative;
     transition: all 500ms ease;
+    line-height: 30px;
 }
 #menu li a{
     text-decoration:none;
@@ -933,7 +937,7 @@ figure.picture-item a .details {
     text-align: center;
 }
 #grid {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 .section .container {
     z-index: 1;
@@ -1194,6 +1198,12 @@ div#section0 img {
     }
 }
 
+
+@media only screen and (max-width: 550px) {
+    ul#menu.active {
+         bottom: 20%;
+     }
+}
 
 /* ==========================================================================
    Helper classes
