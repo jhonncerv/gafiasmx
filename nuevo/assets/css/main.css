@@ -1101,6 +1101,7 @@ textarea {
     width: 100%;
     padding: 5px 10px;
     border: none;
+    box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -1202,7 +1203,31 @@ div#section0 img {
 @media only screen and (max-width: 550px) {
     ul#menu.active {
          bottom: 20%;
-     }
+    }
+    #section3 h3 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    #section3 h3:first-child {
+        margin-top: 80px;
+    }
+    #section3 p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    #section3 #formas h3:first-child {
+        margin-top: 22px;
+    }
+    #fp-nav.right {
+        right: 0;
+    }
+    #section3 .intro {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    footer {
+        bottom: 12px;
+    }
 }
 
 /* ==========================================================================

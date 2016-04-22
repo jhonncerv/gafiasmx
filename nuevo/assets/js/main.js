@@ -4,6 +4,7 @@ $(document).ready(function() {
 		sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent'],
 		anchors: ['inicio','nosotros', 'productos', 'contacto'],
 		menu: '#menu',
+		scrollOverflow: true,
 		//'verticalCentered': false,
 		'css3': true,
 		'navigation': true,
