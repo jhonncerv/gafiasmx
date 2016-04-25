@@ -72,4 +72,17 @@ $(document).ready(function() {
 	 $grid.shuffle({
 		itemSelector: '.picture-item'
 	});
+	console.log($grid.find('a'));
+	$grid.find('a').addClass('is-loading');
+	$grid.imagesLoaded().progress( onProgress );
+
+	function onProgress( imgLoad, image ) {
+		var $item = $( image.img ).parent();
+		$item.removeClass('is-loading');
+		if ( !image.isLoaded ) {
+			$item.addClass('is-broken');
+		}
+	}
+
+
 });
