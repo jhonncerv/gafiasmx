@@ -1024,6 +1024,14 @@ figure.picture-item a .details {
     margin-top: 80px;
 }
 
+#section2 h4 {
+    font-size: 22px;
+    color: #D2721A;
+    margin: 10px 22px 14px;
+    border-bottom: 1px Solid white;
+    padding-bottom: 14px;
+}
+
 #section2 .iIzq {
     left: -100%;
     bottom: 12%;

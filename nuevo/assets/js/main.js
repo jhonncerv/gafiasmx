@@ -37,11 +37,11 @@ $(document).ready(function() {
 			if(index == 2 && direction == 'down'){
 				$('#section2 .iIzq').addClass('active');
 				$('#section2 .iDer').addClass('active');
-				$grid.shuffle('update');
+				//$grid.shuffle('update');
 			} else if(index == 4 && direction == 'up'){
 				$('#section2 .iIzq').addClass('active');
 				$('#section2 .iDer').addClass('active');
-				$grid.shuffle('update');
+				//$grid.shuffle('update');
 			} else {
 				$('#section2 .iIzq').removeClass('active');
 				$('#section2 .iDer').removeClass('active');
@@ -69,10 +69,9 @@ $(document).ready(function() {
 		}
 	});
 	var $grid = $('#grid');
-	 $grid.shuffle({
+	 /* $grid.shuffle({
 		itemSelector: '.picture-item'
-	});
-	console.log($grid.find('a'));
+	});*/
 	$grid.find('a').addClass('is-loading');
 	$grid.imagesLoaded().progress( onProgress );
 
