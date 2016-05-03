@@ -74,6 +74,11 @@ $(document).ready(function() {
 	});*/
 	$grid.find('a').addClass('is-loading');
 	$grid.imagesLoaded().progress( onProgress );
+	$('.icono').click(function () {
+		$(this).toggleClass('activx');
+		$('nav').toggleClass('visi');
+		
+	});
 
 	function onProgress( imgLoad, image ) {
 		var $item = $( image.img ).parent();

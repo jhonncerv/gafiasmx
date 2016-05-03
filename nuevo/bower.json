@@ -23,10 +23,21 @@
   ],
   "dependencies": {
     "fullpage.js": "fullpage#^2.7.8",
-    "shufflejs": "^3.1.1",
-    "imagesloaded": "^4.1.0"
+    "imagesloaded": "^4.1.0",
+    "jScrollPane": "jscrollpane#^2.0.23",
+    "modernizer": "^2.8.2"
   },
   "resolutions": {
     "modernizr": "^2.6.2"
+  },
+  "overrides": {
+    "jScrollPane": {
+      "main": [
+        "./script/jquery.mousewheel.js",
+        "./script/mwheelIntent.js",
+        "./script/jquery.jscrollpane.min.js",
+        "./style/jquery.jscrollpane.css"
+      ]
+    }
   }
 }

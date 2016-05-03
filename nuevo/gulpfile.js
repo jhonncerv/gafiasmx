@@ -202,12 +202,12 @@ gulp.task('scripts', ['jshint'], function() {
 // ### Fonts
 // `gulp fonts` - Grabs all the fonts and outputs them in a flattened directory
 // structure. See: https://github.com/armed/gulp-flatten
-gulp.task('fonts', function() {
+/*gulp.task('fonts', function() {
   return gulp.src(globs.fonts)
     .pipe(flatten())
     .pipe(gulp.dest(path.dist + 'fonts'))
     .pipe(browserSync.stream());
-});
+});*/
 
 // ### Images
 // `gulp images` - Run lossless compression on all the images.
@@ -245,7 +245,7 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 // See: http://www.browsersync.io
 gulp.task('watch', function() {
   browserSync.init({
-    files: ['{lib,templates}/**/*.php', '*.php', '*.html'],
+    files: ['*.php', '*.html'],
     proxy: config.devUrl,
     snippetOptions: {
     }
@@ -263,7 +263,7 @@ gulp.task('watch', function() {
 gulp.task('build', function(callback) {
   runSequence('styles',
               'scripts',
-              ['fonts', 'images'],
+              ['images'],
               callback);
 });
 

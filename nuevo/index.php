@@ -1,3 +1,4 @@
+<?php include('php/assets.php'); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang = "es_MX"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang = "es_MX"> <![endif]-->
@@ -94,8 +95,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="/dist/styles/main.css">
-        <script src="/dist/scripts/modernizr.js"></script>
+        <link rel="stylesheet" href="<?php echo asset_path('styles/main.css'); ?>">
+        <script src="<?php echo asset_path('scripts/modernizr.js'); ?>"></script>
     </head>
     <body>
     <!--[if lt IE 8]>
@@ -619,8 +620,8 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/dist/scripts/jquery.js"><\/script>')</script>
-    <script src="/dist/scripts/main.js"></script>
+    <script>window.jQuery || document.write('<script src="<?php echo asset_path('scripts/jquery.js'); ?>"><\/script>')</script>
+    <script src="<?php echo asset_path('scripts/main.js'); ?>"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

@@ -800,6 +800,7 @@ textarea {
 }
 
 body {
+    background: #000;
     background: url("../images/Capa 2.png");
 }
 
@@ -820,7 +821,7 @@ h2 {
     -webkit-transition: all .9s ease;
     -o-transition: all .9s ease;
     transition: all .9s ease;
-    background: rgba(0, 0, 0, 0.29);
+    background: rgb(19, 19, 19);
 }
 #menu img {
     max-width: 179px;
@@ -881,6 +882,7 @@ ul#menu.active {
     bottom: 11%;
     top: initial;
     text-align: center;
+    background: none;
 }
 
 ul#menu.active li:first-child {
@@ -1179,7 +1181,7 @@ nav {
     #menu li:first-child {
         display: inline-block;
         float: none;
-        width: 100%;
+        width: 50%;
     }
     #menu img {
         width: 110px;
@@ -1219,6 +1221,77 @@ nav {
     nav {
         position: fixed;
         left: -100%;
+        top: 0;
+        width: 100%;
+        display: block;
+        z-index: 72;
+    }
+    nav .icono {
+        position: fixed;
+        background: white;
+        z-index: 10;
+        top: 30px;
+        right: 10px;
+        width: 35px;
+        height: 5px;
+        display: block;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    nav .icono:after {
+        z-index: 10;
+        content: ' ';
+        top: 20px;
+        right: 0;
+        width: 35px;
+        height: 5px;
+        display: block;
+        background: transparent;
+        position: absolute;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    nav .icono:before {
+        content: ' ';
+        z-index: 10;
+        top: 10px;
+        right: 0;
+        width: 35px;
+        height: 5px;
+        display: block;
+        background: white;
+        position: absolute;
+        opacity: 1;
+        -webkit-transition: all .6s ease;
+        -o-transition: all .6s ease;
+        transition: all .6s ease;
+    }
+    nav.visi {
+        left: 0;
+        background: white;
+    }
+    #menu {
+        text-align: left;
+    }
+    nav .icono.activx {
+        transform: rotate(45deg);
+        transform-origin: 0 0;
+        height: 2px;
+    }
+    nav .icono.activx:before {
+        opacity: 0;
+        transform: rotate(-45deg);
+        transform-origin: 10% 0;
+        height: 2px;
+        right: -2px;
+    }
+    nav .icono.activx:after {
+        transform: rotate(-90deg);
+        transform-origin: -4% 0;
+        height: 2px;
+        right: -18px;
     }
 }
 
