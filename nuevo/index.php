@@ -114,6 +114,7 @@
     </ul>
     <nav>
         <div class="icono"></div>
+        <h4>Menu</h4>
         <ul>
             <li data-menuanchor="nosotros"><a href="#nosotros">QUIENES SOMOS</a></li>
             <li data-menuanchor="productos"><a href="#productos">PRODUCTOS</a></li>

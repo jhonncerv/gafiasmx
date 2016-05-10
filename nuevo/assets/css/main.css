@@ -1222,9 +1222,11 @@ nav {
         position: fixed;
         left: -100%;
         top: 0;
-        width: 100%;
+        width: 80%;
+        height: 100%;
         display: block;
         z-index: 72;
+        background: white;
     }
     nav .icono {
         position: fixed;
@@ -1247,7 +1249,7 @@ nav {
         width: 35px;
         height: 5px;
         display: block;
-        background: transparent;
+        background: white;
         position: absolute;
         -webkit-transition: all .5s ease;
         -o-transition: all .5s ease;
@@ -1270,7 +1272,7 @@ nav {
     }
     nav.visi {
         left: 0;
-        background: white;
+        background: #020201;
     }
     #menu {
         text-align: left;
@@ -1292,6 +1294,25 @@ nav {
         transform-origin: -4% 0;
         height: 2px;
         right: -18px;
+    }
+    nav h4 {
+        display: block;
+        text-transform: uppercase;
+        margin: 1.4em 20px;
+        text-align: center;
+        color: #D2721A;
+        border-bottom: 2px solid;
+        padding-bottom: 20px;
+    }
+    nav ul {}
+    nav ul li {
+        list-style: none;
+    }
+    nav ul li a {
+        color: #D2721A;
+        text-decoration: none;
+        padding: 12px 0;
+        display: block;
     }
 }
 
