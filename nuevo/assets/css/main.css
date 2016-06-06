@@ -835,6 +835,7 @@ h2 {
     position: relative;
     transition: all 500ms ease;
     line-height: 30px;
+    position: relative;
 }
 #menu li a{
     text-decoration:none;
@@ -877,6 +878,37 @@ h2 {
 #menu li a:hover{
     color: #d1a067;
 }
+#menu li > ul {
+    position: absolute;
+    background: #131313;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+    padding-left: 0;
+    text-align: center;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    top:-600px;
+}
+#menu li > ul > li {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+#menu li > ul > li > a {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+#menu:not(.active) li:hover ul {
+    width: inherit;
+    opacity: 1;
+    height: inherit;
+    z-index: 11;
+    top: 100%;
+}
 
 ul#menu.active {
     bottom: 11%;
@@ -901,6 +933,9 @@ ul#menu.active li a {
 figure.picture-item {
     margin: 0;
     padding: 0;
+}
+figure.picture-item.col-sm-6 {
+    min-height: 300px;
 }
 figure.picture-item a {
     background: #c1c1c1;
@@ -1023,7 +1058,7 @@ figure.picture-item a .details {
 }
 #section2 h2 {
     color: #ffffff;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 #section2 h4 {

@@ -109,7 +109,14 @@
         <li data-menuanchor="inicio">
             <a href="#inicio"><img src="/dist/images/Capa%207.png" alt="Logo hules y Plasticos Garfías"></a></li>
         <li data-menuanchor="nosotros"><a href="#nosotros">QUIENES SOMOS</a></li>
-        <li data-menuanchor="productos"><a href="#productos">PRODUCTOS</a></li>
+        <li data-menuanchor="productos"><a href="#productos">PRODUCTOS</a>
+            <ul>
+                <li><a href="#deportivo">Deportivo</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#industrial">Industrial</a></li>
+                <li><a href="#domestico">Domestico</a></li>
+            </ul>
+        </li>
         <li data-menuanchor="contacto"><a href="#contacto">CONTACTO</a></li>
     </ul>
     <nav>
@@ -162,7 +169,7 @@
                     </div>
                     <div class="jsProd">
                         <div id="grid" class="row">
-                            <figure class="col-xs-12 picture-item" data-groups='["all"]'>
+                            <figure class="col-xs-12 picture-item" id="deportivo" data-groups='["all"]'>
                                 <h4>Deportivo</h4>
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
@@ -271,7 +278,7 @@
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
-                                    <img src="/dist/images/Carpeta/29.png" height="auto" width="100%" class="halfTop" />
+                                    <img src="/dist/images/Carpeta/29.png" height="auto" width="100%" class="halfTop"/>
                                     <div class="details">
                                         <figcaption class="title">Regaton redondo de hule 1 1/2”</figcaption>
                                     </div>
@@ -287,7 +294,7 @@
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
-                                    <img src="/dist/images/Carpeta/31.png" height="auto" width="100%" />
+                                    <img src="/dist/images/Carpeta/31.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
                                         <figcaption class="title">Regaton redondo de plástico 1 1/2”</figcaption>
                                     </div>
@@ -397,7 +404,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 picture-item" data-groups='["all"]'>
+                            <figure class="col-xs-12 picture-item" id="accesorios" data-groups='["all"]'>
                                 <h4>Accesorios Deportivos</h4>
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
@@ -472,7 +479,23 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 picture-item" data-groups='["all"]'>
+                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                                <a href="#">
+                                    <img src="/dist/images/Carpeta/bola.png" height="auto" width="100%" />
+                                    <div class="details">
+                                        <figcaption class="title">Pelota de gel de 1kg y 1 1/2kg</figcaption>
+                                    </div>
+                                </a>
+                            </figure>
+                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                                <a href="#">
+                                    <img src="/dist/images/Carpeta/naranja.png" height="auto" width="100%" />
+                                    <div class="details">
+                                        <figcaption class="title">Plato de agilidad</figcaption>
+                                    </div>
+                                </a>
+                            </figure>
+                            <figure class="col-xs-12 picture-item" id="industrial" data-groups='["all"]'>
                                 <h4>Industrial</h4>
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
@@ -525,7 +548,7 @@
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
-                                    <img src="/dist/images/Carpeta/44.png" height="auto" width="100%" />
+                                    <img src="/dist/images/Carpeta/44.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
                                         <figcaption class="title">Buje de nylon 3x2”</figcaption>
                                     </div>
@@ -533,13 +556,13 @@
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
-                                    <img src="/dist/images/Carpeta/45.png" height="auto" width="100%" />
+                                    <img src="/dist/images/Carpeta/45.png" height="auto" width="100%" class="halfTop"/>
                                     <div class="details">
                                         <figcaption class="title">Buje de silicón 2 1/2”</figcaption>
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 picture-item" data-groups='["all"]'>
+                            <figure class="col-xs-12 picture-item" id="domestico" data-groups='["all"]'>
                                 <h4>Doméstico</h4>
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["Domestico"]'>
@@ -555,22 +578,6 @@
                                     <img src="/dist/images/Carpeta/23.1.png" height="auto" width="100%" />
                                     <div class="details">
                                         <figcaption class="title">Tapete antiderrapante para baño</figcaption>
-                                    </div>
-                                </a>
-                            </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["domestico"]'>
-                                <a href="#">
-                                    <img src="/dist/images/Carpeta/bola.png" height="auto" width="100%" />
-                                    <div class="details">
-                                        <figcaption class="title">Pelota de gel de 1kg y 1 1/2kg</figcaption>
-                                    </div>
-                                </a>
-                            </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["domestico"]'>
-                                <a href="#">
-                                    <img src="/dist/images/Carpeta/naranja.png" height="auto" width="100%" />
-                                    <div class="details">
-                                        <figcaption class="title">Plato de agilidad</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -594,6 +601,8 @@
                             <p>contacto@garfias.mx</p>
                             <h3>Redes sociales</h3>
                             <a href="#"></a>
+                            <h3>Descarga nuestro catálogo</h3>
+                            <a href="/catalogo_Garfias_2016.pdf" target="_blank">Ver Catálogo</a>
                         </div>
                         <div class="col-xm-12 col-sm-5 col-md-5">
                             <form action="php/contact_me.php" method="post" id="formas">
