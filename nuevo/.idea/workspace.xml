@@ -2,24 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="b6ac29f9-aa19-4874-a13f-d473c45bb188" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;nuevo/.idea/workspace.xml&#10;#&#9;nuevo/css/main.css&#10;" />
-    <list default="true" id="24d0440f-6010-4b75-99e0-f645760aff7f" name="Failed commit: Default" comment="titulos">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Capa 2.1.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main-96a074adf3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main-c107fa670e.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/styles/main-553d0bda20.css" afterPath="$PROJECT_DIR$/dist/styles/main-ef5ded37cc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/Capa 2.png" afterPath="$PROJECT_DIR$/assets/images/Capa 2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/Capa 2.png" afterPath="$PROJECT_DIR$/dist/images/Capa 2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../js/init.js" afterPath="$PROJECT_DIR$/../js/init.js" />
+    <list default="true" id="24d0440f-6010-4b75-99e0-f645760aff7f" name="Failed commit: Default" comment="minimo de tamaño para los cuadritos">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/assets.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa 10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa 2.1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa 2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa 3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa 7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa-16a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa-16b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Capa-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/23.1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/bola.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Carpeta/naranja.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Grupo-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Grupo-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logotipo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logotipo_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logotitpo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/jquery-5eccfcbd5b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main-c107fa670e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main-ef5ded37cc.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets.json" afterPath="$PROJECT_DIR$/dist/assets.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="nuevo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +108,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
-                  <caret line="938" column="1" selection-start-line="938" selection-start-column="1" selection-end-line="938" selection-end-column="1" />
+                <state relative-caret-position="501">
+                  <caret line="949" column="27" selection-start-line="949" selection-start-column="27" selection-end-line="949" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -86,7 +148,7 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
+                <state relative-caret-position="9537">
                   <caret line="561" column="42" selection-start-line="561" selection-start-column="42" selection-end-line="561" selection-end-column="42" />
                   <folding>
                     <marker date="1465176396068" expanded="true" signature="40497:40687" ph="{...}" />
@@ -112,24 +174,24 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="671">
+                <state relative-caret-position="13923">
                   <caret line="819" column="22" selection-start-line="819" selection-start-column="22" selection-end-line="822" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="408">
@@ -165,9 +227,9 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/php/assets.php" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
       </list>
     </option>
   </component>
@@ -212,8 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,56 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuevo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuevo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuevo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuevo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuevo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuevo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,6 +376,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,7 +491,9 @@
       <workItem from="1462846538427" duration="2650000" />
       <workItem from="1462889078224" duration="405000" />
       <workItem from="1462926622222" duration="856000" />
-      <workItem from="1465165088415" duration="7148000" />
+      <workItem from="1465165088415" duration="8235000" />
+      <workItem from="1465235036453" duration="1011000" />
+      <workItem from="1465263597874" duration="3144000" />
     </task>
     <task id="LOCAL-00001" summary="se agrega scroll pane">
       <created>1458851320293</created>
@@ -558,23 +572,30 @@
       <option name="project" value="LOCAL" />
       <updated>1461810087442</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="minimo de tamaño para los cuadritos">
+      <created>1465176576088</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1465176576088</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140895000" />
+    <option name="totallyTimeSpent" value="146137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12953092" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13166311" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18736617" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.187567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -612,7 +633,8 @@
     <MESSAGE value="nuevas imagenes 3" />
     <MESSAGE value="nuevo menu" />
     <MESSAGE value="titulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="titulos" />
+    <MESSAGE value="minimo de tamaño para los cuadritos" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimo de tamaño para los cuadritos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -872,22 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="819" column="22" selection-start-line="819" selection-start-column="22" selection-end-line="822" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -895,6 +901,22 @@
           <folding>
             <marker date="1465176396068" expanded="true" signature="40497:40687" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13923">
+          <caret line="819" column="22" selection-start-line="819" selection-start-column="22" selection-end-line="822" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

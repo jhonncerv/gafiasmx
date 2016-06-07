@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	$('.jscroll').jScrollPane();
 	var api = $('.jsProd').jScrollPane({hijackInternalLinks: true, animateScroll: true}).data('jsp');
-	console.log('api');
 	$('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent'],
 		anchors: ['inicio','nosotros', 'productos', 'contacto'],
@@ -13,7 +12,11 @@ $(document).ready(function() {
 		'navigationPosition': 'right',
 		'navigationTooltips': ['Home', 'Nosotros', 'Productos', 'Contacto'],
 		scrollingSpeed: 1000,
-
+		scrollOverflowOptions: null,
+		touchSensitivity: 25,
+		normalScrollElements: '.jscroll, .jsProd',
+		normalScrollElementTouchThreshold: 5,
+		responsiveWidth: 1100,
 		'afterLoad': function(anchorLink, index){
 			if(index == 1){
 				$('#menu').addClass('active');
