@@ -190,14 +190,6 @@
                             </figure>
                             <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
-                                    <img src="/dist/images/Carpeta/6.png" height="auto" width="100%" />
-                                    <div class="details">
-                                        <figcaption class="title">Buje de nylon</figcaption>
-                                    </div>
-                                </a>
-                            </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
-                                <a href="#">
                                     <img src="/dist/images/Carpeta/7.png" class="noTop" height="auto" width="100%" />
                                     <div class="details">
                                         <figcaption class="title">Buje de nylon</figcaption>
@@ -240,7 +232,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/24.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Funda 2x2” de poplipropileno</figcaption>
+                                        <figcaption class="title">Huella para pedal de hule</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -248,7 +240,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/25.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
-                                        <figcaption class="title">Huella para pedal de hule</figcaption>
+                                        <figcaption class="title">Funda 2x2” de poplipropileno</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -256,7 +248,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/26.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Regaton redondo de hule</figcaption>
+                                        <figcaption class="title">Regaton cuadrado de hule, 2”</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -264,7 +256,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/27.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Regaton cuadrado de hule, 2”</figcaption>
+                                        <figcaption class="title">Regaton redondo de hule</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -272,7 +264,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/28.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
-                                        <figcaption class="title">Regaton redondo de hule</figcaption>
+                                        <figcaption class="title">Regaton redondo de hule 1 1/2”</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -280,7 +272,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/29.png" height="auto" width="100%" class="halfTop"/>
                                     <div class="details">
-                                        <figcaption class="title">Regaton redondo de hule 1 1/2”</figcaption>
+                                        <figcaption class="title">Regaton redondo de hule</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -304,7 +296,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/32.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Buje chumacera de nylon 5/8”</figcaption>
+                                        <figcaption class="title">Regaton cuadrado de plástico 1 1/2”</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -312,7 +304,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/33.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Regaton cuadrado de plástico 1 1/2”</figcaption>
+                                        <figcaption class="title">Buje chumacera de nylon 5/8”</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -320,7 +312,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/34.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
-                                        <figcaption class="title">Tapón tabla de plástico</figcaption>
+                                        <figcaption class="title">Pelota de PVC 1 1/2” c/barreno</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -328,7 +320,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/35.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
-                                        <figcaption class="title">Pelota de PVC 1 1/2” c/barreno</figcaption>
+                                        <figcaption class="title">Tapón tabla de plástico</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -336,7 +328,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/36.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
-                                        <figcaption class="title">Mariposa chica de plástico</figcaption>
+                                        <figcaption class="title">Rondana pedal escaladora de nylon</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -344,7 +336,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/37.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Rondana pedal escaladora de nylon</figcaption>
+                                        <figcaption class="title">Mariposa chica de plástico</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -352,7 +344,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/38.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Capucha para resorte niquelado PVC</figcaption>
+                                        <figcaption class="title">Regaton redondo de plástico 1”</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -360,7 +352,7 @@
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/39.png" height="auto" width="100%" />
                                     <div class="details">
-                                        <figcaption class="title">Regaton redondo de plástico 1”</figcaption>
+                                        <figcaption class="title">Capucha para resorte niquelado PVC</figcaption>
                                     </div>
                                 </a>
                             </figure>
@@ -460,6 +452,14 @@
                                     <img src="/dist/images/Carpeta/5.png" class="halfTop" height="auto" width="100%" />
                                     <div class="details">
                                         <figcaption class="title">Liga de hule para ejercicio</figcaption>
+                                    </div>
+                                </a>
+                            </figure>
+                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                                <a href="#">
+                                    <img src="/dist/images/Carpeta/6.png" height="auto" width="100%" />
+                                    <div class="details">
+                                        <figcaption class="title">Mancuernas 1kg y 1/2 kg</figcaption>
                                     </div>
                                 </a>
                             </figure>

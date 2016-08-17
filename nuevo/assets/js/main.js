@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$('.jscroll').jScrollPane();
-	var api = $('.jsProd').jScrollPane({hijackInternalLinks: true, animateScroll: true}).data('jsp');
+	var api = $('.jsProd').jScrollPane({
+	    //hijackInternalLinks: true, animateScroll: true
+	}).data('jsp');
 	$('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent'],
 		anchors: ['inicio','nosotros', 'productos', 'contacto'],
