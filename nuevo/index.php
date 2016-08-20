@@ -31,7 +31,7 @@
     <!-- Google Authorship and Publisher Markup-->
     <link rel="author" href=""/>
     <link rel="publisher" href=""/>
-
+    <meta name="theme-color" content="#000000" />
 
     <!-- Schema.org markup for Google+ -->
     <meta itemscope itemtype="http://schema.org/Article">
@@ -111,10 +111,10 @@
         <li data-menuanchor="nosotros"><a href="#nosotros">QUIENES SOMOS</a></li>
         <li data-menuanchor="productos"><a href="#productos">PRODUCTOS</a>
             <ul>
-                <li><a href="#deportivo">Deportivo</a></li>
-                <li><a href="#accesorios">Accesorios</a></li>
-                <li><a href="#industrial">Industrial</a></li>
-                <li><a href="#domestico">Domestico</a></li>
+                <li><a href="#productos" data-href="#productos">Deportivo</a></li>
+                <li><a href="#productos" data-href="#accesorios">Accesorios</a></li>
+                <li><a href="#productos" data-href="#industrial">Industrial</a></li>
+                <li><a href="#productos" data-href="#domestico">Domestico</a></li>
             </ul>
         </li>
         <li data-menuanchor="contacto"><a href="#contacto">CONTACTO</a></li>
@@ -172,7 +172,7 @@
                             <figure class="col-xs-12 picture-item" id="deportivo" data-groups='["all"]'>
                                 <h4>Deportivo</h4>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/1.png" class="noTop" height="auto" width="100%" />
                                     <div class="details">
@@ -180,7 +180,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/2.png" height="auto" width="100%" />
                                     <div class="details">
@@ -188,7 +188,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/7.png" class="noTop" height="auto" width="100%" />
                                     <div class="details">
@@ -196,7 +196,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/8.png" height="auto" width="100%" />
                                     <div class="details">
@@ -204,7 +204,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/11.png" class="halfTop" height="auto" width="100%" />
                                     <div class="details">
@@ -212,7 +212,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/12.png" class="halfTop" height="auto" width="100%" />
                                     <div class="details">
@@ -220,7 +220,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/15.png" height="auto" width="100%" />
                                     <div class="details">
@@ -228,7 +228,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/24.png" height="auto" width="100%" />
                                     <div class="details">
@@ -236,7 +236,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/25.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -244,7 +244,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/26.png" height="auto" width="100%" />
                                     <div class="details">
@@ -252,7 +252,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/27.png" height="auto" width="100%" />
                                     <div class="details">
@@ -260,7 +260,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/28.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -268,7 +268,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/29.png" height="auto" width="100%" class="halfTop"/>
                                     <div class="details">
@@ -276,7 +276,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/30.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -284,7 +284,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/31.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -292,7 +292,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/32.png" height="auto" width="100%" />
                                     <div class="details">
@@ -300,7 +300,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/33.png" height="auto" width="100%" />
                                     <div class="details">
@@ -308,7 +308,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/34.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -316,7 +316,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/35.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -324,7 +324,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/36.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -332,7 +332,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/37.png" height="auto" width="100%" />
                                     <div class="details">
@@ -340,7 +340,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/38.png" height="auto" width="100%" />
                                     <div class="details">
@@ -348,7 +348,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/39.png" height="auto" width="100%" />
                                     <div class="details">
@@ -356,7 +356,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/40.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -364,7 +364,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/41.png" height="auto" width="100%" />
                                     <div class="details">
@@ -372,7 +372,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/42.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -380,7 +380,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/43.png" height="auto" width="100%" />
                                     <div class="details">
@@ -388,7 +388,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["deportivo"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["deportivo"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/49.png" height="auto" width="100%" />
                                     <div class="details">
@@ -399,7 +399,7 @@
                             <figure class="col-xs-12 picture-item" id="accesorios" data-groups='["all"]'>
                                 <h4>Accesorios Deportivos</h4>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/22.png" height="auto" width="100%" />
                                     <div class="details">
@@ -407,7 +407,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/46.png" height="auto" width="100%" />
                                     <div class="details">
@@ -415,7 +415,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/47.png" height="auto" width="100%" />
                                     <div class="details">
@@ -423,7 +423,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/48.png" height="auto" width="100%" />
                                     <div class="details">
@@ -431,7 +431,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["acessorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["acessorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/3.png" height="auto" width="100%" />
                                     <div class="details">
@@ -439,7 +439,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["acessorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["acessorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/4.png" class="halfTop" height="auto" width="100%" />
                                     <div class="details">
@@ -447,7 +447,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/5.png" class="halfTop" height="auto" width="100%" />
                                     <div class="details">
@@ -455,7 +455,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/6.png" height="auto" width="100%" />
                                     <div class="details">
@@ -463,7 +463,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/13.png" class="noTop" height="auto" width="100%" />
                                     <div class="details">
@@ -471,7 +471,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/14.png" height="auto" width="100%" />
                                     <div class="details">
@@ -479,7 +479,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/bola.png" height="auto" width="100%" />
                                     <div class="details">
@@ -487,7 +487,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["accesorios"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["accesorios"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/naranja.png" height="auto" width="100%" />
                                     <div class="details">
@@ -498,7 +498,7 @@
                             <figure class="col-xs-12 picture-item" id="industrial" data-groups='["all"]'>
                                 <h4>Industrial</h4>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/9.png" class="halfTop" height="auto" width="100%" />
                                     <div class="details">
@@ -506,7 +506,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/17.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -514,7 +514,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/18.png" height="auto" width="100%" />
                                     <div class="details">
@@ -522,7 +522,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/19.png" height="auto" width="100%" />
                                     <div class="details">
@@ -530,7 +530,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/20.png" height="auto" width="100%" />
                                     <div class="details">
@@ -538,7 +538,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/21.png" height="auto" width="100%" />
                                     <div class="details">
@@ -546,7 +546,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/44.png" height="auto" width="100%" class="halfTop" />
                                     <div class="details">
@@ -554,7 +554,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["industrial"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["industrial"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/45.png" height="auto" width="100%" class="halfTop"/>
                                     <div class="details">
@@ -565,7 +565,7 @@
                             <figure class="col-xs-12 picture-item" id="domestico" data-groups='["all"]'>
                                 <h4>Doméstico</h4>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["Domestico"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["Domestico"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/23.png" height="auto" width="100%" />
                                     <div class="details">
@@ -573,7 +573,7 @@
                                     </div>
                                 </a>
                             </figure>
-                            <figure class="col-xs-12 col-sm-6 col-md-3 picture-item" data-groups='["domestico"]'>
+                            <figure class="col-xs-6 col-sm-4 col-md-3 picture-item" data-groups='["domestico"]'>
                                 <a href="#">
                                     <img src="/dist/images/Carpeta/23.1.png" height="auto" width="100%" />
                                     <div class="details">

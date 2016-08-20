@@ -882,15 +882,15 @@ h2 {
     position: absolute;
     background: #131313;
     opacity: 0;
-    height: 0;
-    width: 0;
     z-index: -1;
     padding-left: 0;
     text-align: center;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
-    top:-600px;
+    top:100%;
+    visibility: hidden;
+    pointer-events: none;
 }
 #menu li > ul > li {
     text-align: center;
@@ -903,11 +903,12 @@ h2 {
     border-right: none;
 }
 #menu:not(.active) li:hover ul {
-    width: inherit;
     opacity: 1;
     height: inherit;
     z-index: 11;
     top: 100%;
+    visibility: visible;
+    pointer-events: inherit;
 }
 
 ul#menu.active {
@@ -946,6 +947,7 @@ figure.picture-item a {
     text-decoration: none;
     min-height: 240px;
     position: relative;
+    cursor: default;
 }
 figure.picture-item a img {
     margin: 10px;
@@ -1006,6 +1008,7 @@ figure.picture-item a .details {
     width: 50%;
     text-align: left;
     margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 .jscroll h1 {
@@ -1210,6 +1213,10 @@ nav {
         width: 80%;
         margin-top: 11%;
     }
+    #menu {
+        text-align: left;
+        margin: 0;
+    }
     #menu li {
         display: none;
     }
@@ -1247,6 +1254,7 @@ nav {
     }
     #section2 .jsProd {
         height: 350px;
+        margin: 10px 0 20px auto;
     }
     #section2 h2 {
         font-size: 15px;
@@ -1309,9 +1317,6 @@ nav {
         left: 0;
         background: #020201;
     }
-    #menu {
-        text-align: left;
-    }
     nav .icono.activx {
         transform: rotate(45deg);
         transform-origin: 0 0;
@@ -1364,6 +1369,9 @@ nav {
 @media only screen and (max-width: 550px) {
     ul#menu.active {
          bottom: 20%;
+    }
+    #menu.active li {
+        display: none;
     }
     #section3 h3 {
         font-size: 16px;

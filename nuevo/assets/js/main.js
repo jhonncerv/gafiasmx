@@ -1,7 +1,8 @@
+var api;
 $(document).ready(function() {
 	$('.jscroll').jScrollPane();
-	var api = $('.jsProd').jScrollPane({
-	    //hijackInternalLinks: true, animateScroll: true
+    api = $('.jsProd').jScrollPane({
+	    hijackInternalLinks: false, animateScroll: false
 	}).data('jsp');
 	$('#fullpage').fullpage({
 		sectionsColor: ['transparent', 'transparent', 'transparent', 'transparent'],
@@ -15,9 +16,9 @@ $(document).ready(function() {
 		'navigationTooltips': ['Home', 'Nosotros', 'Productos', 'Contacto'],
 		scrollingSpeed: 1000,
 		scrollOverflowOptions: null,
-		touchSensitivity: 25,
+		touchSensitivity: 50,
 		normalScrollElements: '.jscroll, .jsProd',
-		normalScrollElementTouchThreshold: 5,
+		normalScrollElementTouchThreshold: 50,
 		responsiveWidth: 1100,
 		'afterLoad': function(anchorLink, index){
 			if(index == 1){
@@ -86,7 +87,9 @@ $(document).ready(function() {
 		$('nav').toggleClass('visi');
 		
 	});
-
+    $('#menu li ul li a').click(function (e) {
+        scrole();
+    });
 	function onProgress( imgLoad, image ) {
 		var $item = $( image.img ).parent();
 		$item.removeClass('is-loading');
@@ -94,6 +97,8 @@ $(document).ready(function() {
 			$item.addClass('is-broken');
 		}
 	}
-
+	function scrole() {
+        api.scrollToY(100);
+    }
 
 });
